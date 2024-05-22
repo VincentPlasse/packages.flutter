@@ -5,30 +5,30 @@ issue_tracker: https://github.com/ScerIO/packages.flutter/issues?q=is%3Aissue+is
 version: 2.6.0
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
-  flutter: '>=3.19.0'
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.22.0"
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  plugin_platform_interface: ^2.1.6
-  device_info_plus: ^10.0.1
-  uuid: ^4.0.0
-  meta: ^1.9.1
+  plugin_platform_interface: ^2.1.8
+  device_info_plus: ^10.1.0
+  uuid: ^4.4.0
+  meta: ^1.12.0
   extension: ^0.6.0
-  synchronized: ^3.1.0
+  synchronized: ^3.1.0+1
   universal_platform: ^1.0.0+1
   photo_view: ^0.15.0
   vector_math: ^2.1.4
-  web: ^0.5.0
+  web: ^0.5.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.3
-  pigeon: ^4.2.14
+  flutter_lints: ^4.0.0
+  pigeon: ^19.0.0
 
 flutter:
   plugin:
